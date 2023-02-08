@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Week9WebsiteStyle.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="Week9WebsiteHome.html">AZ's Cats</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <!--the href is where you would put the links-->
+                    <a class="nav-link" href="Week9WebsiteHome.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Week9WebsiteBuster.html">Buster</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Week9WebsiteBoba.html">Boba</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="child">
+                    <h1>About My Cats!</h1>
+                    <h6>by Aziyel Madrigal</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="./Cats/BusterSmall.jpg" alt="Buster small">
+                    <div class="card-body">
+                        <a href="./Week9WebsiteBuster.html" class="btn btn-primary">Buster</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="./Cats/BobaGround.JPG" alt="Boba ground">
+                    <div class="card-body">
+                        <a href="./Week9WebsiteBoba.html" class="btn btn-primary">Boba</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <!--Form-->
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Subscribe for more content!</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
